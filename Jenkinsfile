@@ -9,6 +9,7 @@ pipeline {
                     echo "Hello from Jenkins"
                     echo "Compiling code"
                     date
+                    mvn clean install
                 '''
 
 
