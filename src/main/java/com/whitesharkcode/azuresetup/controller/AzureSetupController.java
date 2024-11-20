@@ -13,7 +13,7 @@ public class AzureSetupController {
     public String getsetup() {
         return  "This is Working....";
     }
-    @GetMapping ("/test")
+    @GetMapping ("/new")
     public String getNew() {
         return "NewSetup";
     }
