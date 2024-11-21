@@ -15,6 +15,6 @@ public class AzureSetupController {
     }
     @GetMapping ("/new")
     public String getNew() {
-        return "NewSetup";
+        return "NewSetup-1";
     }
 }
